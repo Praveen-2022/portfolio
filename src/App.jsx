@@ -1,13 +1,21 @@
-import './App.css'
+import React from 'react'
+import { Header,Nav,About,Contact, Experience, Footer, Portfolio, Services, Testimonials,Qualification } from './components'
 
-function App() {
-
+const App = () => {
   return (
-    <div>
-      <h1>
-      Praveen | Dev
-      </h1>
-    </div>
+    <>
+    <Header/>
+    <Nav/>
+    <About/>
+    <Experience/>
+    <Qualification/>
+    <Services/>
+    <Portfolio/>
+    {/* <Testimonials/> */}
+    <Contact/>
+    <Footer/>
+
+    </>
   )
 }
 
